@@ -2,6 +2,8 @@ from cnnClassifier.utils.common import read_yaml, create_directories
 from cnnClassifier.entity.config_entity import DataIngestionConfig
 from cnnClassifier.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
 from pathlib import Path
+import os
+from cnnClassifier.entity import (DataIngestionConfig)
 
 
 class ConfigurationManager:
